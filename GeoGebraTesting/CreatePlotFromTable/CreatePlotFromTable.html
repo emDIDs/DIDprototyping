@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Create Plot from Table</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="description" content="GeoGebra iFrame Exploration" />
+        <link rel="stylesheet" href="../styles.css" />
+        <!-- <link rel="icon" href="logo-eureka-math.svg" /> -->
+        <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    </head>
+
+    <body>
+        <div id="full-contents">
+            <header>
+                <h1>Create Plot from Table</h1>
+                <p>
+                    Enter numeric values into the table and click Plot to
+                    display points. Click Add Row to add more rows and Remove
+                    Row to remove rows from the bottom.
+                </p>
+            </header>
+            <div id="main">
+                <div id="ggb-element"></div>
+                <div id="submission">
+                    <button id="add">Add Row</button>
+                    <button id="remove">Remove Row</button>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>x</th>
+                                <th>y</th>
+                            </tr>
+                            <tr>
+                                <td><input type="number" required /></td>
+                                <td><input type="number" required /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" required /></td>
+                                <td><input type="number" required /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" required /></td>
+                                <td><input type="number" required /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" required /></td>
+                                <td><input type="number" required /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button id="submit">Plot</button>
+                </div>
+            </div>
+            <script src="./script.js" type="text/JavaScript"></script>
+        </div>
+    </body>
+</html>
