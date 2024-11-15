@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DID Prototypes</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <div id="header-col-1">
+                <div id="img-container">
+                    <div id="img-mask"></div>
+                    <img
+                        id="img"
+                        src="/gator.png"
+                        alt="Sharon, our gator mascot" />
+                </div>
+            </div>
+            <div id="header-col-2">
+                <h1>DID Prototypes</h1>
+                <h2>
+                    The only time you'll be happy to find a gator in a sandbox!
+                </h2>
+            </div>
+        </header>
+        <main>
+            <ul>
+                <li>Table Testing</li>
+                <ul>
+                    <li>
+                        <a
+                            href="./GeoGebraTesting/CreatePlotFromTable/CreatePlotFromTable.html">
+                            Creating a Plot from a Table
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="./GeoGebraTesting/CreateTableFromPlot/CreateTableFromPlot.html">
+                            Creating a Table from a Plot
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./GeoGebraTesting/UpdateTableFromPlot/">
+                            Updating a Table from a Plot
+                        </a>
+                    </li>
+                </ul>
+                <li>Error Message Testing (Michelle Libersat)</li>
+                <ul>
+                    <li>
+                        <a
+                            href="https://mlibersat.github.io/Error_Messaging/ggb_text/index.html">
+                            v1 GGB Text
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://mlibersat.github.io/Error_Messaging/tooltip/index.html">
+                            v2 Tooltip Div
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://mlibersat.github.io/Error_Messaging/tooltip_2/index.html">
+                            v2.1 Constrain Div
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://mlibersat.github.io/Error_Messaging/custom_width_and_coords/index.html">
+                            v3 Customization
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+        </main>
+        <p id="broken-click" class="hidden">Maybe coming soon?</p>
+        <script>
+            function clickFunction() {
+              document.querySelector("#broken-click").classList.remove("hidden");
+              setTimeout(() => {
+                document.querySelector("#broken-click").classList.add("hidden");
+                window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+              }, 2000);
+            }
+        </script>
+    </body>
+</html>
